@@ -108,3 +108,9 @@ you will need to add a line like this `import { yourPluginName } from './103_you
 before the last line insert something like `{ name: 'My Plugin Name', value: 103, fields: yourPluginName },`, where name is the name as shown in UI, value is your plugin id number and for fields pass the imported object.
 
 5) save all files and from project root run `npm run build`, which will build new files for you in `/build` folder. Its time to test!
+
+### maintaining
+
+1) setup your development environment as described under `developing`
+2) to upgrade dependencies to latest versions run `yarn upgrade`
+3) create pull request with changed `package.json`

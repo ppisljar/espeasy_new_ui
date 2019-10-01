@@ -111,7 +111,7 @@ before the last line insert something like `{ name: 'My Plugin Name', value: 103
 
 ### parsing espeasy config.dat file
 
-[look here](conf/README.md)
+[look here](src/conf/README.md)
 
 ### maintaining
 

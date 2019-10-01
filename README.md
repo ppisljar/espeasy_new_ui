@@ -109,6 +109,10 @@ before the last line insert something like `{ name: 'My Plugin Name', value: 103
 
 5) save all files and from project root run `npm run build`, which will build new files for you in `/build` folder. Its time to test!
 
+### parsing espeasy config.dat file
+
+[look here](conf/README.md)
+
 ### maintaining
 
 1) setup your development environment as described under `developing`

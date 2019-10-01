@@ -100,8 +100,8 @@ class DataParser {
     }
 }
 
-export const parseConfig = (data, config, start) => {
-    const p = new DataParser(data);
+export const parseConfig = (buffer, config, start) => {
+    const p = new DataParser(buffer);
     if (start) p.offset = start;
     const result = {};
     config.map(value => {

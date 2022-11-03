@@ -31,7 +31,7 @@
     "@babel/preset-env": "^7.3.1",
     "babel-loader": "^8.0.5",
     "del": "^5.1.0",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-csso": "^3.0.1",
     "gulp-gzip": "^1.4.2",
